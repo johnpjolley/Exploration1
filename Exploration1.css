@@ -1,0 +1,25 @@
+.header {
+  font-family: fantasy;
+  text-align: center;
+  background-color: cyan; }
+
+table {
+  width: 100%; }
+
+table, th, td {
+  border-top: 2px solid black;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+  table .evenCell, th .evenCell, td .evenCell {
+    background-color: coral; }
+
+#table2 td {
+  text-align: center; }
+#table2 .oddCell {
+  background-color: cyan; }
+
+/*# sourceMappingURL=Exploration1.css.map */

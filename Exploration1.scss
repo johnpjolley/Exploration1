@@ -1,0 +1,50 @@
+$color: cyan;
+$color2: coral;
+$borderColor: solid black;
+$padding: 4px;
+
+.header
+{
+    font-family: fantasy;
+    text-align: center;
+    background-color: $color;
+}
+
+table
+{
+    width: 100%;
+}
+
+table, th, td
+{
+    border:
+    {
+        top: 2px $borderColor;
+        right: 4px $borderColor;
+        left: 4px $borderColor;
+        bottom: 2px $borderColor;
+        collapse: collapse;
+    }
+    padding:
+    {
+        top: $padding;
+        bottom: $padding;
+    }
+    .evenCell
+    {
+        background-color: $color2;
+    }
+}
+
+#table2
+{
+    td
+    {
+        text-align: center;
+    }
+    .oddCell
+    {
+        background-color: $color;
+    }
+}
+
